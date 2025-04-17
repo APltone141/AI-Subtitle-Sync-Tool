@@ -1,0 +1,8 @@
+Since this is a front-end-only project, no server-side dependencies are required. 
+
+However, you can list libraries if you want to add server-side functionality or extend it with Node.js:
+
+
+# requirements
+waveSurfer.js
+ffmpeg.js

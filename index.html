@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AI-Powered Subtitle Sync Tool</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/wavesurfer.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/franc-min"></script>
+  <body>
+      <div class="container">
+          <header>
+              <h1>AI-Powered Subtitle Sync Tool</h1>
+              <p>Sync subtitles with video/audio files automatically!</p>
+          </header>
+          
+          <section class="file-upload">
+              <label for="video-upload">Upload Video/Audio</label>
+              <input type="file" id="video-upload" accept="video/*,audio/*">
+          </section>
+  
+          <section class="file-upload">
+              <label for="subtitle-upload">Upload Subtitle (TXT/SRT)</label>
+              <input type="file" id="subtitle-upload" accept=".txt,.srt">
+          </section>
+  
+          <div class="waveform-container">
+              <div id="waveform"></div>
+          </div>
+  
+          <div class="subtitle-preview">
+              <h2>Subtitle Preview</h2>
+              <div id="subtitle-preview"></div>
+          </div>
+  
+          <section class="controls">
+              <button id="sync-btn">Sync Subtitles</button>
+              <button id="export-btn">Export SRT</button>
+          </section>
+  
+      </div>
+  
+      <script src="app.js"></script>
+  </body>
+  </html>
+  
