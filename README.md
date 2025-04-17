@@ -33,33 +33,28 @@ To run the project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/AI-Powered-Subtitle-Sync-Tool.git
    cd AI-Powered-Subtitle-Sync-Tool
-Open the Project:
 
-Open index.html directly in your browser or use a local server to view it.
+2. **Open the Project**:
 
+```Open index.html directly in your browser or use a local server to view it.
 Usage
 Upload Video/Audio:
-
-Click on the Upload Video/Audio button to upload your media file (MP4, MP3, WAV, etc.).
+--Click on the Upload Video/Audio button to upload your media file (MP4, MP3, WAV, etc.).
 
 Upload Subtitle:
-
-Upload the subtitle file (.srt or .txt format) containing the raw subtitles (without timestamps).
+--Upload the subtitle file (.srt or .txt format) containing the raw subtitles (without timestamps).
 
 Auto-Sync:
-
-The tool will automatically sync the subtitle with the audio based on speech recognition.
+--The tool will automatically sync the subtitle with the audio based on speech recognition.
 
 Manual Sync:
-
-If the timing isn't perfect, click and drag the subtitle items to adjust them.
+--If the timing isn't perfect, click and drag the subtitle items to adjust them.
 
 Export Subtitles:
-
-Once you're satisfied with the sync, click on the "Export" button to download the synced subtitle in .srt format.
+--Once you're satisfied with the sync, click on the "Export" button to download the synced subtitle in .srt format.
 
 Deployment
-You can deploy the project using GitHub Pages or Vercel. Just push the code to your GitHub repository, and set it up on the hosting service.
+--You can deploy the project using GitHub Pages or Vercel. Just push the code to your GitHub repository, and set it up on the hosting service.
 
 Contributing
-Feel free to fork the repository and submit pull requests. We welcome improvements and new features. If you find any issues, please open an issue on the GitHub repository.
+--Feel free to fork the repository and submit pull requests. We welcome improvements and new features. If you find any issues, please open an issue on the GitHub repository.
